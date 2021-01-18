@@ -1,0 +1,10 @@
+.center {
+  display: flex;
+  height: 200px;
+  background-color: #11ffff;
+  justify-content: center;
+  align-items: center;
+}
+input::-webkit-calendar-picker-indicator {
+	display: none;
+}

@@ -1,0 +1,11 @@
+<div class="center" style="height:100px">
+   <h1>Phone Directory</h1>
+</div>
+<div class="center" style="height:300px">
+   <label>Search Name&nbsp;&nbsp;</label>
+      <input type="text" (keyup)="searchValue($event)" placeholder="Type here" list="searchDictionary"/>
+         <datalist id="searchDictionary"> 
+                  <option *ngFor="let name of names" [value]="name" >{{name}}</option>
+         </datalist>
+</div>
+
