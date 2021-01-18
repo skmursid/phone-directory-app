@@ -4,10 +4,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Steps required to search names from phone directory with suggestions
 1. I have created this sample phone directory using angular and plain html.
-2. First I created an angular project using commang --> ng new phone-directory-app. 
-3. Then created service phone-directory-service using command ng g service phone-directory
-4. Added a json file in path ./assets/Contacts/names.json. Inside the json file added few person names.
-5. When a user starts typing character in input text function searchValue get triggered present in app.component typescript file, which inturn calls service for fetching values from json file. Once the value is fetch, i'm storing it into an array and using html list populating the required values on the screen.
+2. First I created an angular project using following command --> ng new phone-directory-app. 
+3. Then I created service phone-directory-service using command ng g service phone-directory
+4. Added a json file in path ./assets/Contacts/names.json for data purpose. Inside the json file added few person names.
+5. When a user starts typing character in input text function searchValue get triggered present in app.component typescript file, which inturn calls service for fetching values from json file. Once the value is fetch, i'm storing it into an array and using html list populating the values on the screen.
 6. In names.json file, i have added names of person in different format, kindly refer the same. Also we can modify those and test the same.
    a. Search is very easy i.e. if we know the person last name also, it'll give suggestion for match.
    For example, if we search with text shah also it'll fetch Full name for us.
